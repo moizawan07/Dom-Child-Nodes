@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Child-Nodes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 onclick="navSection()"  style="text-align: center; background-color: cornflowerblue; display: inline-block; padding-block: 15px; padding-inline: 80px; border-radius: 5.5px; margin-left: 40%; margin-top: 50px;">Nav Section</h2>
+    <div class="nav">
+        <h1 style="margin-top: 50px;">Hedaing the nav <button style="padding-inline: 40px;" onclick="navFirst()">Nav First</button></h1> 
+    <ul style="margin-left: 15px; margin-top: 20px;">
+         <li style="margin-left: 25px; margin-top: 20px;">li 1  <a href="#">first li a</a> <button onclick="navSecond()" style="margin-left: 148px;">Nav Second</button> </li>
+         <li style="margin-left: 25px; margin-top: 30px;">li 2  <a href="#">Second li a</a> <button onclick="navThird()" style="margin-left: 120px; padding-inline: 38px;">Nav Third</button></li>
+    </ul>
+    </div>
+    <h2 onclick="mainSection()" style="text-align: center; background-color: cornflowerblue; display: inline-block; padding-block: 15px; padding-inline: 80px; border-radius: 5.5px; margin-left: 40%; margin-top: 50px;">Main Section</h2>
+    <div class="main">
+       <h1 style="margin-top: 50px;">Hedaing the main <button onclick="mainfirst()" style="padding-inline: 40px; position: relative; right: 21px;" > Main First</button></h1> 
+       <p style="margin-top: 20px; margin-left: 20px;">Paragrapgy  <button onclick="mainSecond()" style="margin-left: 159px; padding-inline: 32px;">Main Second</button></p>
+       <img style="margin-top: 50px; margin-left: 42px; box-shadow: 0px 0px 10px cyan; border-radius: 10px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9VvG51ZByCG7Z8yDbwth1D8IuuyUc5b8LMw&s" alt=""> <button onclick="mainThird()" style="position: relative; bottom: 80px; padding-inline: 41px;">Main img</button>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
